@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09063efb-d6ce-4930-8a6e-605d7ad5317f" name="Default" comment="" />
+    <list default="true" id="09063efb-d6ce-4930-8a6e-605d7ad5317f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/beanTest/beanTest.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/beanTest/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/beanTest/src/main/java/com/pusong/study/beanTest/App.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/beanTest/src/main/java/com/pusong/study/beanTest/bean/SmallWorld.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/beanTest/src/main/java/com/pusong/study/beanTest/bean/World.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/beanTest/src/main/java/com/pusong/study/beanTest/config/BeanConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/beanTest/src/main/java/com/pusong/study/beanTest/controller/WorldController.java" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/mockTest/target/" />
+    <ignored path="$PROJECT_DIR$/beanTest/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,34 +28,97 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mockTest/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WorldControllerTest.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="WorldControllerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mockTest/src/test/java/com/pusong/study/mockTest/controller/WorldControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="234">
+              <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beanTest/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beanTest/src/main/java/com/pusong/study/beanTest/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BeanConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beanTest/src/main/java/com/pusong/study/beanTest/config/BeanConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorldController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beanTest/src/main/java/com/pusong/study/beanTest/controller/WorldController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="World.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beanTest/src/main/java/com/pusong/study/beanTest/bean/World.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SmallWorld.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beanTest/src/main/java/com/pusong/study/beanTest/bean/SmallWorld.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+              <folding>
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,8 +127,8 @@
       <file leaf-file-name="RestTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mockTest/src/test/java/com/pusong/study/mockTest/controller/RestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="342">
+              <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,53 +136,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestRestTemplate.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/1.5.9.RELEASE/spring-boot-test-1.5.9.RELEASE-sources.jar!/org/springframework/boot/test/web/client/TestRestTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="239" column="38" lean-forward="false" selection-start-line="239" selection-start-column="38" selection-end-line="239" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestTemplate.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-809">
-              <caret line="757" column="16" lean-forward="false" selection-start-line="757" selection-start-column="16" selection-end-line="757" selection-end-column="16" />
-              <folding>
-                <element signature="e#31171#31172#0" expanded="true" />
-                <element signature="e#31212#31213#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MvcResult.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE-sources.jar!/org/springframework/test/web/servlet/MvcResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="43" column="16" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MockHttpServletResponse.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE-sources.jar!/org/springframework/mock/web/MockHttpServletResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="208" column="30" lean-forward="false" selection-start-line="208" selection-start-column="18" selection-end-line="208" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WorldController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mockTest/src/main/java/com/pusong/study/mockTest/controller/WorldController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="144">
               <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -118,6 +153,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -127,6 +163,14 @@
       <find>getcon</find>
       <find>getContentAsjson</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -145,14 +189,28 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/mockTest/src/test/java/com/pusong/study/mockTest/controller/WorldControllerTest.java" />
         <option value="$PROJECT_DIR$/mockTest/src/test/java/com/pusong/study/mockTest/controller/RestTest.java" />
+        <option value="$PROJECT_DIR$/beanTest/pom.xml" />
+        <option value="$PROJECT_DIR$/beanTest/src/main/java/com/pusong/study/beanTest/App.java" />
+        <option value="$PROJECT_DIR$/beanTest/src/main/java/com/pusong/study/beanTest/bean/World.java" />
+        <option value="$PROJECT_DIR$/beanTest/src/main/java/com/pusong/study/beanTest/bean/SmallWorld.java" />
+        <option value="$PROJECT_DIR$/beanTest/src/main/java/com/pusong/study/beanTest/config/BeanConfig.java" />
+        <option value="$PROJECT_DIR$/beanTest/src/main/java/com/pusong/study/beanTest/controller/WorldController.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1747" />
-    <option name="y" value="-26" />
-    <option name="width" value="1278" />
-    <option name="height" value="1020" />
+    <option name="x" value="44" />
+    <option name="y" value="-11" />
+    <option name="width" value="1323" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -169,9 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,70 +235,12 @@
               <item name="testProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="testProject" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="testProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testProject" type="462c0819:PsiDirectoryNode" />
-              <item name="mockTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testProject" type="462c0819:PsiDirectoryNode" />
-              <item name="mockTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testProject" type="462c0819:PsiDirectoryNode" />
-              <item name="mockTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testProject" type="462c0819:PsiDirectoryNode" />
-              <item name="mockTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testProject" type="462c0819:PsiDirectoryNode" />
-              <item name="mockTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mockTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testProject" type="462c0819:PsiDirectoryNode" />
-              <item name="mockTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mockTest" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testProject" type="462c0819:PsiDirectoryNode" />
-              <item name="mockTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testProject" type="462c0819:PsiDirectoryNode" />
-              <item name="mockTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,6 +248,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -263,13 +262,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RestTest.testHello">
+  <component name="RunManager" selected="Application.App (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pusong.study.beanTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.pusong.study.beanTest.App" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="beanTest" />
+      <envs />
     </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -414,16 +432,18 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.App" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.WorldControllerTest.testHello" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.RestTest.testHello" />
+      <item index="3" class="java.lang.String" itemvalue="Application.App (1)" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RestTest.testHello" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.WorldControllerTest.testHello" />
-        <item index="2" class="java.lang.String" itemvalue="Application.App" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.App (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RestTest.testHello" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.WorldControllerTest.testHello" />
+        <item index="3" class="java.lang.String" itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -485,32 +505,57 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1600" y="-4" width="1280" height="1028" extended-state="6" />
-    <editor active="true" />
+    <frame x="44" y="-11" width="1323" height="780" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24905375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910313" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -522,20 +567,132 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mockTest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mockTest/src/test/java/com/pusong/study/mockTest/controller/RestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mockTest/src/main/java/com/pusong/study/mockTest/controller/WorldController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mockTest/src/test/java/com/pusong/study/mockTest/controller/WorldControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mockTest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mockTest/src/main/java/com/pusong/study/mockTest/controller/WorldController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mockTest/src/test/java/com/pusong/study/mockTest/controller/WorldControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mockTest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mockTest/src/test/java/com/pusong/study/mockTest/controller/RestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mockTest/src/main/java/com/pusong/study/mockTest/controller/WorldController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mockTest/src/test/java/com/pusong/study/mockTest/controller/WorldControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mockTest/src/main/java/com/pusong/study/mockTest/model/HelloResponseModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="e#164#165#0" expanded="false" />
-            <element signature="e#194#195#0" expanded="false" />
-            <element signature="e#240#241#0" expanded="false" />
-            <element signature="e#278#279#0" expanded="false" />
-            <element signature="e#312#313#0" expanded="false" />
-            <element signature="e#344#345#0" expanded="false" />
-            <element signature="e#379#380#0" expanded="false" />
-            <element signature="e#433#434#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,82 +708,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE.jar!/org/springframework/test/web/servlet/MockMvc.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1202">
-          <caret line="103" column="53" lean-forward="false" selection-start-line="103" selection-start-column="53" selection-end-line="103" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE-sources.jar!/org/springframework/test/web/servlet/MockMvc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="132" column="16" lean-forward="false" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE-sources.jar!/org/springframework/test/web/servlet/ResultActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="71" column="7" lean-forward="false" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE-sources.jar!/org/springframework/test/web/servlet/MvcResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="43" column="16" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE-sources.jar!/org/springframework/mock/web/MockHttpServletResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="208" column="30" lean-forward="false" selection-start-line="208" selection-start-column="18" selection-end-line="208" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/1.5.9.RELEASE/spring-boot-test-1.5.9.RELEASE.jar!/org/springframework/boot/test/json/JacksonTester.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <marker date="1515595764576" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1515595764576" expanded="false" signature="158:663" ph="..." />
-            <marker date="1515595764576" expanded="true" signature="862:982" ph="{...}" />
-            <marker date="1515595764576" expanded="true" signature="1085:1158" ph="{...}" />
-            <marker date="1515595764576" expanded="true" signature="1276:1462" ph="{...}" />
-            <marker date="1515595764576" expanded="true" signature="1556:1629" ph="{...}" />
-            <marker date="1515595764576" expanded="true" signature="1713:1781" ph="{...}" />
-            <marker date="1515595764576" expanded="true" signature="1845:2021" ph="{...}" />
-            <marker date="1515595764576" expanded="true" signature="2105:2181" ph="{...}" />
-            <marker date="1515595764576" expanded="true" signature="2245:2421" ph="{...}" />
-            <marker date="1515595764576" expanded="false" signature="2472:2483" ph=" { " />
-            <marker date="1515595764576" expanded="false" signature="2538:2544" ph=" }" />
-            <marker date="1515595764576" expanded="true" signature="2628:2729" ph="{...}" />
-            <marker date="1515595764576" expanded="true" signature="2835:2943" ph="{...}" />
-            <marker date="1515595764576" expanded="true" signature="2996:3107" ph="{...}" />
-            <marker date="1515595764576" expanded="true" signature="3197:3527" ph="{...}" />
-            <marker date="1515595764576" expanded="false" signature="3242:3257" ph=" { " />
-            <marker date="1515595764576" expanded="false" signature="3284:3294" ph=" }" />
-            <marker date="1515595764576" expanded="true" signature="3435:3521" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/1.5.9.RELEASE/spring-boot-test-1.5.9.RELEASE-sources.jar!/org/springframework/boot/test/json/JacksonTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1530">
-          <caret line="72" column="41" lean-forward="true" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE.jar!/org/springframework/test/web/servlet/MockMvc.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE-sources.jar!/org/springframework/test/web/servlet/MockMvc.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE-sources.jar!/org/springframework/test/web/servlet/ResultActions.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE-sources.jar!/org/springframework/test/web/servlet/MvcResult.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE-sources.jar!/org/springframework/mock/web/MockHttpServletResponse.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/1.5.9.RELEASE/spring-boot-test-1.5.9.RELEASE.jar!/org/springframework/boot/test/json/JacksonTester.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/1.5.9.RELEASE/spring-boot-test-1.5.9.RELEASE-sources.jar!/org/springframework/boot/test/json/JacksonTester.java" />
     <entry file="file://$PROJECT_DIR$/mockTest/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -637,15 +725,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        <state relative-caret-position="648">
+          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mockTest/src/main/java/com/pusong/study/mockTest/controller/WorldController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="144">
           <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -653,118 +741,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="153" column="33" lean-forward="false" selection-start-line="153" selection-start-column="33" selection-end-line="153" selection-end-column="33" />
-          <folding>
-            <marker date="1515592721646" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1515592721646" expanded="false" signature="154:2199" ph="..." />
-            <marker date="1515592721646" expanded="true" signature="3370:4667" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="4734:4805" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="4880:5284" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="5372:5645" ph="{...}" />
-            <marker date="1515592721646" expanded="false" signature="5710:5721" ph=" { " />
-            <marker date="1515592721646" expanded="false" signature="5751:5757" ph=" }" />
-            <marker date="1515592721646" expanded="true" signature="5826:5954" ph="{...}" />
-            <marker date="1515592721646" expanded="false" signature="6005:6016" ph=" { " />
-            <marker date="1515592721646" expanded="false" signature="6041:6047" ph=" }" />
-            <marker date="1515592721646" expanded="true" signature="6124:6406" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="6474:6596" ph="{...}" />
-            <marker date="1515592721646" expanded="false" signature="6651:6662" ph=" { " />
-            <marker date="1515592721646" expanded="false" signature="6693:6699" ph=" }" />
-            <marker date="1515592721646" expanded="true" signature="6817:7176" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="7299:7653" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="7744:8079" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="8213:8535" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="8674:8996" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="9103:9411" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="9514:9657" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="9765:9903" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="9979:10098" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="10210:10466" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="10583:10839" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="10924:11166" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="11301:11661" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="11801:12156" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="12264:12587" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="12738:13061" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="13217:13540" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="13664:13973" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="14074:14266" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="14372:14559" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="14633:14801" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="14937:15298" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="15439:15795" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="15904:16228" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="16316:16441" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="16534:16654" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="16715:16816" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="16924:17196" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="17309:17576" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="17657:17905" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="18083:18403" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="18586:18906" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="19057:19363" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="19562:19910" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="20114:20462" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="20634:20968" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="21094:21511" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="21658:22103" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="22285:22456" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="22643:22814" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="22969:23056" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="23216:24521" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="24633:25210" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="25297:25379" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="25454:25533" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="25627:25720" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="25820:25906" ph="{...}" />
-            <marker date="1515592721646" expanded="false" signature="25971:25982" ph=" { " />
-            <marker date="1515592721646" expanded="false" signature="26011:26017" ph=" }" />
-            <marker date="1515592721646" expanded="true" signature="26103:26299" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="26140:26151" ph="{}" />
-            <marker date="1515592721646" expanded="true" signature="26240:26293" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="26402:27280" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="26536:26840" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="26935:27274" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="27375:31878" ph="{...}" />
-            <marker date="1515592721646" expanded="false" signature="27490:27505" ph=" { " />
-            <marker date="1515592721646" expanded="false" signature="27535:27545" ph=" }" />
-            <marker date="1515592721646" expanded="true" signature="27628:27996" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="28082:31872" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="31953:34653" ph="{...}" />
-            <marker date="1515592721646" expanded="false" signature="32059:32074" ph=" { " />
-            <marker date="1515592721646" expanded="false" signature="32107:32117" ph=" }" />
-            <marker date="1515592721646" expanded="true" signature="32199:33904" ph="{...}" />
-            <marker date="1515592721646" expanded="true" signature="34003:34647" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/1.5.9.RELEASE/spring-boot-test-1.5.9.RELEASE-sources.jar!/org/springframework/boot/test/web/client/TestRestTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="239" column="38" lean-forward="false" selection-start-line="239" selection-start-column="38" selection-end-line="239" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-809">
-          <caret line="757" column="16" lean-forward="false" selection-start-line="757" selection-start-column="16" selection-end-line="757" selection-end-column="16" />
-          <folding>
-            <element signature="e#31171#31172#0" expanded="true" />
-            <element signature="e#31212#31213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/client/RestTemplate.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/1.5.9.RELEASE/spring-boot-test-1.5.9.RELEASE-sources.jar!/org/springframework/boot/test/web/client/TestRestTemplate.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java" />
     <entry file="file://$PROJECT_DIR$/mockTest/src/test/java/com/pusong/study/mockTest/controller/RestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="342">
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -773,11 +756,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mockTest/src/test/java/com/pusong/study/mockTest/controller/WorldControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="234">
+          <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beanTest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beanTest/src/main/java/com/pusong/study/beanTest/bean/World.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beanTest/src/main/java/com/pusong/study/beanTest/bean/SmallWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beanTest/src/main/java/com/pusong/study/beanTest/config/BeanConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beanTest/src/main/java/com/pusong/study/beanTest/controller/WorldController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beanTest/src/main/java/com/pusong/study/beanTest/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>

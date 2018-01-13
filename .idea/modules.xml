@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/beanTest/beanTest.iml" filepath="$PROJECT_DIR$/beanTest/beanTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/mockTest/mockTest.iml" filepath="$PROJECT_DIR$/mockTest/mockTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/testProject.iml" filepath="$PROJECT_DIR$/testProject.iml" />
     </modules>
