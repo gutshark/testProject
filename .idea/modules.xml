@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/beanTest/beanTest.iml" filepath="$PROJECT_DIR$/beanTest/beanTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/mockTest/mockTest.iml" filepath="$PROJECT_DIR$/mockTest/mockTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springBootSecurity/springBootSecurity.iml" filepath="$PROJECT_DIR$/springBootSecurity/springBootSecurity.iml" />
       <module fileurl="file://$PROJECT_DIR$/testProject.iml" filepath="$PROJECT_DIR$/testProject.iml" />
     </modules>
   </component>
