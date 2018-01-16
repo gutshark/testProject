@@ -8,12 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="beanTest" />
         <module name="mockTest" />
+        <module name="profileActiveTest" />
         <module name="springBootSecurity" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="beanTest" target="1.8" />
       <module name="mockTest" target="1.8" />
+      <module name="profileActiveTest" target="1.8" />
+      <module name="profilesActiveTest" target="1.8" />
       <module name="springBootSecurity" target="1.8" />
       <module name="testProject" target="1.8" />
     </bytecodeTargetLevel>

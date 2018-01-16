@@ -22,6 +22,7 @@
         <module>mockTest</module>
         <module>springBootSecurity</module>
         <module>beanTest</module>
+        <module>profileActiveTest</module>
     </modules>
 
     <parent>

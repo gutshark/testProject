@@ -5,16 +5,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/worlds")
-public class WorldController {
+@RequestMapping("/users")
+public class UserController {
 
     @GetMapping
-    public String hello() {
-        return "Hello World.";
-    }
-
-    @GetMapping("/message")
     public String get() {
-        return "Hello World, This is a message.";
+        return "Yang Zhenyu";
     }
 }

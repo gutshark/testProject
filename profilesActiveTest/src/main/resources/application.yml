@@ -1,0 +1,8 @@
+server:
+  port: 9090
+  context-path: /api
+  servlet-path: /worlds
+
+spring:
+  profiles:
+    active: dev
