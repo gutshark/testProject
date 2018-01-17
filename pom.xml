@@ -23,6 +23,7 @@
         <module>springBootSecurity</module>
         <module>beanTest</module>
         <module>profileActiveTest</module>
+        <module>filterTest</module>
     </modules>
 
     <parent>
