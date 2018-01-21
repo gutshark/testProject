@@ -11,6 +11,7 @@
         <module name="filterTest" />
         <module name="interceptorTest" />
         <module name="mockTest" />
+        <module name="oauth2Test" />
         <module name="profileActiveTest" />
         <module name="springBootSecurity" />
       </profile>
@@ -21,6 +22,7 @@
       <module name="filterTest" target="1.8" />
       <module name="interceptorTest" target="1.8" />
       <module name="mockTest" target="1.8" />
+      <module name="oauth2Test" target="1.8" />
       <module name="profileActiveTest" target="1.8" />
       <module name="profilesActiveTest" target="1.8" />
       <module name="springBootSecurity" target="1.8" />

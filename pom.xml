@@ -26,6 +26,7 @@
         <module>filterTest</module>
         <module>interceptorTest</module>
         <module>filterAndInterceptorTest</module>
+        <module>oauth2Test</module>
     </modules>
 
     <parent>
