@@ -25,6 +25,7 @@
         <module>profileActiveTest</module>
         <module>filterTest</module>
         <module>interceptorTest</module>
+        <module>filterAndInterceptorTest</module>
     </modules>
 
     <parent>

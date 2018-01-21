@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/beanTest/beanTest.iml" filepath="$PROJECT_DIR$/beanTest/beanTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/filterTest/filterTest.iml" filepath="$PROJECT_DIR$/filterTest/filterTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filterAndInterceptorTest/filterAndInterceptorTest.iml" filepath="$PROJECT_DIR$/filterAndInterceptorTest/filterAndInterceptorTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/filterTest/filterTest.iml" filepath="$PROJECT_DIR$/filterTest/filterTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/interceptorTest/interceptorTest.iml" filepath="$PROJECT_DIR$/interceptorTest/interceptorTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/mockTest/mockTest.iml" filepath="$PROJECT_DIR$/mockTest/mockTest.iml" />
