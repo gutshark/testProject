@@ -1,6 +1,6 @@
 package com.pusong.study.filterTest.config;
 
-import com.pusong.study.filterTest.filter.PermisionFilter;
+import com.pusong.study.filterTest.filter.PermissionFilter;
 import com.pusong.study.filterTest.filter.SessionFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
@@ -10,9 +10,9 @@ import org.springframework.context.annotation.Configuration;
 public class FilterRegisterConfig {
 
     @Bean
-    public FilterRegistrationBean getPermisionFilterRegistrationBean() {
+    public FilterRegistrationBean getPermissionFilterRegistrationBean() {
         FilterRegistrationBean filterRegistrationBean = new FilterRegistrationBean();
-        filterRegistrationBean.setFilter(getPermisionFilter());
+        filterRegistrationBean.setFilter(getPermissionFilter());
         filterRegistrationBean.addUrlPatterns("/worlds/*");
         filterRegistrationBean.setOrder(Integer.MAX_VALUE);
 
@@ -30,8 +30,8 @@ public class FilterRegisterConfig {
     }
 
     @Bean
-    public PermisionFilter getPermisionFilter() {
-        return new PermisionFilter();
+    public PermissionFilter getPermissionFilter() {
+        return new PermissionFilter();
     }
 
     @Bean

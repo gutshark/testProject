@@ -24,6 +24,7 @@
         <module>beanTest</module>
         <module>profileActiveTest</module>
         <module>filterTest</module>
+        <module>interceptorTest</module>
     </modules>
 
     <parent>

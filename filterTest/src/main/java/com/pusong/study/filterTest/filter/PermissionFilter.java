@@ -3,7 +3,7 @@ package com.pusong.study.filterTest.filter;
 import javax.servlet.*;
 import java.io.IOException;
 
-public class PermisionFilter implements javax.servlet.Filter {
+public class PermissionFilter implements javax.servlet.Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         System.out.println(this.getClass().getName() + " init");

@@ -1,3 +1,4 @@
 security:
-    username: user01
+  user:
+    name: user01
     password: 123456
