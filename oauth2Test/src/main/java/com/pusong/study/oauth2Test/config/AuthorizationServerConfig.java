@@ -48,10 +48,11 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
                 .scopes("app");
     }
 
-    @Override
-    public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
-        security
-                .tokenKeyAccess("permitAll()")
-                .checkTokenAccess("isAuthenticated()");
-    }
+//    @Override
+//    public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
+//        security
+//                .allowFormAuthenticationForClients();
+//                .tokenKeyAccess("permitAll()")
+//                .checkTokenAccess("isAuthenticated()");
+//    }
 }

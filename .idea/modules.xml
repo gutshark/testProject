@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/oauth2Test/oauth2Test.iml" filepath="$PROJECT_DIR$/oauth2Test/oauth2Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBootSecurity/springBootSecurity.iml" filepath="$PROJECT_DIR$/springBootSecurity/springBootSecurity.iml" />
       <module fileurl="file://$PROJECT_DIR$/testProject.iml" filepath="$PROJECT_DIR$/testProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thymeleafTest/thymeleafTest.iml" filepath="$PROJECT_DIR$/thymeleafTest/thymeleafTest.iml" />
     </modules>
   </component>
 </project>

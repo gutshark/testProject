@@ -1,3 +1,6 @@
+logging:
+  level:
+    org.springframework: DEBUG
 #authserver:
 #  hostname: auth-service
 #  port: 5000
@@ -16,3 +19,4 @@
 #      scope: server
 #    resource:
 #      user-info-uri: http://${authserver.hostname}:${authserver.port}${authserver.contextPath}/current
+
