@@ -28,6 +28,7 @@
         <module>filterAndInterceptorTest</module>
         <module>oauth2Test</module>
         <module>thymeleafTest</module>
+        <module>h2Test</module>
     </modules>
 
     <parent>
