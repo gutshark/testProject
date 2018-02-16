@@ -12,6 +12,7 @@
         <module name="h2Test" />
         <module name="interceptorTest" />
         <module name="mockTest" />
+        <module name="oauth2InDBTest" />
         <module name="oauth2Test" />
         <module name="profileActiveTest" />
         <module name="springBootSecurity" />
@@ -25,6 +26,7 @@
       <module name="h2Test" target="1.8" />
       <module name="interceptorTest" target="1.8" />
       <module name="mockTest" target="1.8" />
+      <module name="oauth2InDBTest" target="1.8" />
       <module name="oauth2Test" target="1.8" />
       <module name="profileActiveTest" target="1.8" />
       <module name="profilesActiveTest" target="1.8" />

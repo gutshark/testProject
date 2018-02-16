@@ -1,6 +1,6 @@
-logging:
-  level:
-    org.springframework: DEBUG
+#logging:
+#  level:
+#    org.springframework: DEBUG
 #authserver:
 #  hostname: auth-service
 #  port: 5000

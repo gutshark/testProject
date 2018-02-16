@@ -8,6 +8,7 @@
     <file url="file://$PROJECT_DIR$/h2Test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/interceptorTest" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mockTest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oauth2InDBTest" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oauth2Test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/profilesActiveTest" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springBootSecurity" charset="UTF-8" />

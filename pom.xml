@@ -29,6 +29,7 @@
         <module>oauth2Test</module>
         <module>thymeleafTest</module>
         <module>h2Test</module>
+        <module>oauth2InDBTest</module>
     </modules>
 
     <parent>
