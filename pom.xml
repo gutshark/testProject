@@ -30,6 +30,7 @@
         <module>thymeleafTest</module>
         <module>h2Test</module>
         <module>oauth2InDBTest</module>
+        <module>bcryptTest</module>
     </modules>
 
     <parent>

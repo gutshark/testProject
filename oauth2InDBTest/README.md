@@ -111,3 +111,51 @@ token存储方式共有三种分别是：
 
 
 参考:http://blog.csdn.net/j754379117/article/details/70175198
+
+
+执行postman
+获取token
+```
+curl -X POST localhost:8080/oauth/token?grant_type=password&client_id=client&client_secret&username=user01&password=123456
+response:
+{
+  "access_token": "0e864b49-659d-40c5-88cc-c4a65968071f",
+  "token_type": "bearer",
+  "refresh_token": "ae451665-e8e8-4963-9dff-7f2d83820588",
+  "expires_in": 41823,
+  "scope": "app"
+}
+```
+
+刷新token
+```
+curl -X POST localhost:8080/oauth/token&grant_type=refresh_token&client_id=client&client_secret&refresh_token=ae451665-e8e8-4963-9dff-7f2d83820588
+{
+  "access_token": "67581a75-1faf-49c5-88e6-3fe370778c69",
+  "token_type": "bearer",
+  "refresh_token": "ae451665-e8e8-4963-9dff-7f2d83820588",
+  "expires_in": 43199,
+  "scope": "app"
+}
+```
+
+验证 token
+```
+curl -X POST -u client:secret localhost:8080/oauth/check_token?token=a9c56f0b-d675-4983-af6b-edfc2932310f
+{
+  "exp": 1519106136,
+  "user_name": "admin",
+  "authorities": [
+    "ROLE_ADMIN"
+  ],
+  "client_id": "client",
+  "scope": [
+    "app"
+  ]
+}
+```
+在 application.yml 中加入以下参数不受 oauth2 保护
+```
+security:
+  ignored: /oauth/check_token
+```

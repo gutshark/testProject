@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bcryptTest" />
         <module name="beanTest" />
         <module name="filterAndInterceptorTest" />
         <module name="filterTest" />
@@ -20,6 +21,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bcryptTest" target="1.8" />
       <module name="beanTest" target="1.8" />
       <module name="filterAndInterceptorTest" target="1.8" />
       <module name="filterTest" target="1.8" />

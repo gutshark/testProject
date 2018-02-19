@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/bcryptTest/bcryptTest.iml" filepath="$PROJECT_DIR$/bcryptTest/bcryptTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/beanTest/beanTest.iml" filepath="$PROJECT_DIR$/beanTest/beanTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/filterAndInterceptorTest/filterAndInterceptorTest.iml" filepath="$PROJECT_DIR$/filterAndInterceptorTest/filterAndInterceptorTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/filterTest/filterTest.iml" filepath="$PROJECT_DIR$/filterTest/filterTest.iml" />
