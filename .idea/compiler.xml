@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="aopTest" />
         <module name="bcryptTest" />
         <module name="beanTest" />
         <module name="filterAndInterceptorTest" />
@@ -13,14 +14,17 @@
         <module name="h2Test" />
         <module name="interceptorTest" />
         <module name="mockTest" />
+        <module name="oauth2ClientTest" />
         <module name="oauth2InDBTest" />
         <module name="oauth2Test" />
         <module name="profileActiveTest" />
+        <module name="profilesActiveTest" />
         <module name="springBootSecurity" />
         <module name="thymeleafTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="aopTest" target="1.8" />
       <module name="bcryptTest" target="1.8" />
       <module name="beanTest" target="1.8" />
       <module name="filterAndInterceptorTest" target="1.8" />
@@ -28,6 +32,7 @@
       <module name="h2Test" target="1.8" />
       <module name="interceptorTest" target="1.8" />
       <module name="mockTest" target="1.8" />
+      <module name="oauth2ClientTest" target="1.8" />
       <module name="oauth2InDBTest" target="1.8" />
       <module name="oauth2Test" target="1.8" />
       <module name="profileActiveTest" target="1.8" />

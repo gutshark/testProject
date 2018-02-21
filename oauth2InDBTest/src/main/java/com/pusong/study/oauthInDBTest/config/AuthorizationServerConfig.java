@@ -36,9 +36,9 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
     public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
         security
                 .allowFormAuthenticationForClients()
-                .passwordEncoder(passwordEncoder)
-                .tokenKeyAccess("permitAll()")
-                .checkTokenAccess("isAuthenticated()");
+                .passwordEncoder(passwordEncoder);
+//                .tokenKeyAccess("permitAll()")
+//                .checkTokenAccess("isAuthenticated()");
 
     }
 

@@ -1,6 +1,6 @@
-insert into oauth_client_details(client_id, client_secret, scope, authorized_grant_types)
+insert into oauth_client_details(client_id, client_secret, scope, authorized_grant_types, access_token_validity, refresh_token_validity)
 --values('client', 'secret', 'app', 'password,refresh_token');
-values('client', '$2a$11$F3zUBAKamiA0qJN73Ner5uDlmL4b37FWJHaE8q4PuZCIEaTmBiy8e', 'app', 'password,refresh_token');
+values('client', '$2a$11$F3zUBAKamiA0qJN73Ner5uDlmL4b37FWJHaE8q4PuZCIEaTmBiy8e', 'app', 'password,refresh_token', 2592001, 600);
 
 insert into users(username, password, enabled)
 --values('user01', '123456', true);

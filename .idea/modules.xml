@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/aopTest/aopTest.iml" filepath="$PROJECT_DIR$/aopTest/aopTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/bcryptTest/bcryptTest.iml" filepath="$PROJECT_DIR$/bcryptTest/bcryptTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/beanTest/beanTest.iml" filepath="$PROJECT_DIR$/beanTest/beanTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/filterAndInterceptorTest/filterAndInterceptorTest.iml" filepath="$PROJECT_DIR$/filterAndInterceptorTest/filterAndInterceptorTest.iml" />
@@ -9,8 +10,10 @@
       <module fileurl="file://$PROJECT_DIR$/h2Test/h2Test.iml" filepath="$PROJECT_DIR$/h2Test/h2Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/interceptorTest/interceptorTest.iml" filepath="$PROJECT_DIR$/interceptorTest/interceptorTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/mockTest/mockTest.iml" filepath="$PROJECT_DIR$/mockTest/mockTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth2ClientTest/oauth2ClientTest.iml" filepath="$PROJECT_DIR$/oauth2ClientTest/oauth2ClientTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/oauth2InDBTest/oauth2InDBTest.iml" filepath="$PROJECT_DIR$/oauth2InDBTest/oauth2InDBTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/oauth2Test/oauth2Test.iml" filepath="$PROJECT_DIR$/oauth2Test/oauth2Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/profilesActiveTest/profilesActiveTest.iml" filepath="$PROJECT_DIR$/profilesActiveTest/profilesActiveTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBootSecurity/springBootSecurity.iml" filepath="$PROJECT_DIR$/springBootSecurity/springBootSecurity.iml" />
       <module fileurl="file://$PROJECT_DIR$/testProject.iml" filepath="$PROJECT_DIR$/testProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/thymeleafTest/thymeleafTest.iml" filepath="$PROJECT_DIR$/thymeleafTest/thymeleafTest.iml" />

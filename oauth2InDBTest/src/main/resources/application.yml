@@ -9,5 +9,5 @@ spring:
     username: root
     password: 123456
 
-#security:
-#  ignored: /oauth/check_token
+security:
+  ignored: /worlds/public,/oauth/check_token

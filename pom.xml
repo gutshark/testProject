@@ -31,6 +31,8 @@
         <module>h2Test</module>
         <module>oauth2InDBTest</module>
         <module>bcryptTest</module>
+        <module>aopTest</module>
+        <module>oauth2ClientTest</module>
     </modules>
 
     <parent>
