@@ -26,7 +26,7 @@ public class WorldController {
 
     @LogAnnotation(code = "add world")
     @PostMapping
-    public ResponseEntity<WorldResponseModel> add(@RequestBody WorldRequestModel request) {
+    public ResponseEntity<WorldResponseModel> add(@RequestBody WorldRequestModel request, @RequestParam(value = "name", required = false) String name) {
         WorldResponseModel response = new WorldResponseModel();
         response.setName(request.getName());
 

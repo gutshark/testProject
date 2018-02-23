@@ -7,14 +7,15 @@ import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 @Aspect
 @Component
+@Order(10100)
 public class LogAspet {
     @Pointcut("@annotation(com.pusong.study.aopTest.annotation.LogAnnotation)")
     public void pointcut() {
-
     }
 
     @Around("pointcut()")
